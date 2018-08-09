@@ -16,22 +16,3 @@ const facts = [
   "He was a choir boy and boy scout",
   "He hated the sound of his own voice"
 ];
-
-function johnLennonFacts(facts) {
-  var newFacts = [];
-  let i = 0;
-  while (i < facts.length) {
-    newFacts.push(facts[i] + '!!!');
-    i++;
-  }
-  return newFacts;
-}
-
-function iLoveTheBeatles(number) {
-  var array = [];
-  do {
-    array.push('I love the Beatles!');
-    number++;
-  } while (number < 15);
-  return array;
-}
